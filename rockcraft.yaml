@@ -1,0 +1,19 @@
+name: sdcore-nrf
+base: ubuntu:22.04
+version: '1.3'
+summary: SD-Core NRF
+description: SD-Core NRF
+license: Apache-2.0
+platforms:
+  amd64:
+
+parts:
+  nrf:
+    plugin: go
+    source: https://github.com/omec-project/nrf.git
+    source-type: git
+    source-commit: b747b98520a4c154f5cf1fcf7b2b1bec2600c7cc
+    build-snaps:
+      - go/1.18/stable
+    organize:
+      bin/cmd: bin/nrf
