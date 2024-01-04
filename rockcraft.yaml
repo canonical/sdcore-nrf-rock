@@ -14,9 +14,9 @@ parts:
     plugin: go
     source: https://github.com/omec-project/nrf.git
     source-type: git
-    source-commit: b747b98520a4c154f5cf1fcf7b2b1bec2600c7cc
+    source-commit: 242879c6405bdce762d808f0589666d35236c035
     build-snaps:
-      - go/1.18/stable
+      - go/1.21/stable
     stage-packages:
       - libc6_libs
     organize:
