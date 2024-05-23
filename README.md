@@ -1,4 +1,4 @@
- # SD-Core NRF ROCK
+ # SD-Core NRF rock
 
 Container image for SD-Core NRF.
 
